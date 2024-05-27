@@ -1,0 +1,441 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Poppins,sans-serif;
+} 
+.header{
+     padding: 0;
+     margin: 0;
+     /* top: 0;
+     right: 0; */
+     display: flex;  /*assigning in a particular way */ 
+} 
+nav{
+    margin-left:0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    /* border: 10px solid red; */
+} 
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+    padding-right: 40px;
+    margin: 0;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:17px ;
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition: .2s;
+}   
+.image{
+    float: right;
+    margin: 50px 30px;
+    width: 550px;
+    height: 200px;
+}
+.image img{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    height: 350px;
+    width: 350px;
+    margin: 50px 90px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    /* mix-blend-mode: lighten; */
+}
+.content{
+    color: white;
+
+        /* position: absolute; */
+        top: 20%;
+        padding-left: 90px;
+        transform: translateY(-0%);
+        line-height: 0.8;
+}
+h2{
+    font-size: 30px;
+}
+h2:hover{
+    color:rgb(251, 8, 8);
+    margin:20px 0px 20px;
+    font-size: 60px; 
+}
+h3{
+    color: orange;
+    font-size: 50px;
+    /* margin-bottom: 50px; */
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+/* .main{
+    width:600px;
+    height:600px;
+    position: absolute;
+    display: flex;
+}    
+.main p{
+    display: flex;
+    color: aquamarine;
+position: relative;
+    line-height: 3rem;
+    top: 45%;
+    right: 180%;
+    font-size:30px;
+    width: 500px; 
+    padding-left: 40px;
+     
+} */
+
+
+.about-text{
+    width: 900px;  
+    /* top: 45%; */
+    left: 4%;
+    
+    /* color: rgb(217, 206, 226); */
+}
+.about-text p{
+    color: white;
+    /* letter-spacing: 2px; */
+    line-height: 3rem;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-top: 50px;
+    /* margin-bottom: 45px; */
+}
+/* .content h3{
+    overflow: hidden; 
+    border-right: -10em solid orange;
+    white-space: nowrap;
+    animation: typing 5s forwards;
+    font-size: 1.6em;
+    width: 50px; 
+    /* height:40px; */
+
+/* @keyframes typing{
+    from{width:0%}
+    to{width:100%}
+}   */
+/* ----------skills----------- */
+#Skills{
+    margin: 50px 60px;
+    padding-top: 30px;
+}
+.key{
+    /* margin: 100px 10px; */
+    /* display: inline-blok
+    /* margin: 50px 50px; */
+    /* padding: 40px 50px; */
+  
+    color: azure;
+   
+    /* list-style-type: none;  */
+    border: 2px solid  #3506f3;
+    box-shadow: 2px 2px 2px 2px rgb(82, 3, 251); 
+    border-width: 2px;
+    margin: 100px 20px; 
+}
+.key ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.key h1{
+    color:white;
+    text-align: center;
+    font-size: 34px;
+    padding-top:20px;
+
+}
+
+/* .image1 img {
+    height: 199px;
+    width: 199px; 
+    /* object-fit: cover; should be resized*/
+    /* background-size: cover;
+    box-shadow: 10px 5px 10px rgb(245, 105, 12);
+    margin: 20px 80px;
+}  */ 
+
+.key img{
+    width:180px;
+    height:180px;
+    padding:20px 40px;
+}
+.key li{
+    
+    display:inline-block;
+    padding-left: 60px;
+}
+.key span{
+    color: white;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    font-size: 20px;
+}
+/* .............education............. */
+.Edu{
+   text-align: center;
+   
+}
+.Edu h1{
+    color: rgb(243, 243, 245);
+    letter-spacing: 1px;
+}
+.Edu p{
+    color: antiquewhite;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+
+}
+.section ul{
+    list-style: none;
+    /* color: aliceblue; */
+    line-height: 1.8rem;
+    font-family: 'poppins';
+}
+.graduation{
+    color: white;
+    flex-basis: 25%;
+    border-radius: 15px;
+    border: 2px solid  #3506f3;
+    box-shadow: 2px 2px 2px 2px rgb(82, 3, 251); 
+}
+.inter{
+    margin: 20px 20px;
+    color: white;
+    flex-basis: 25%;
+    border: 2px solid #3506f3;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(82, 3, 251);
+    transition: transform 0.3s ease;
+}
+.school{
+    margin: 20px 20px;
+    color: white;
+    flex-basis: 25%;
+    border: 2px solid #3506f3; 
+    box-shadow: 2px 2px 2px 2px rgb(82, 3, 251);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.graduation img{
+    height: 150px;
+    width: 140px;
+}
+.inter img{
+    height: 150px;
+    width: 140px;
+}
+.school img{
+    height: 150px;
+    width: 140px;
+}
+ .graduation{
+    transition: transform 0.3s ease; /*move an element on hover */
+    margin: 20px 20px;
+} 
+.graduation:hover{
+    background-color: #5a38e0;
+    color: black;
+    /* font-weight: 600; 
+    font-size: 15px; */
+    /* font-family: 'Merriweather'; */
+    transform: translateY(-30px); /*move an element on hover*/
+    
+}
+.inter:hover{
+    background-color: #5a38e0;
+    color: black;
+    transform: translateY(-30px);
+}
+.school:hover{
+    background-color: #5a38e0; 
+    color: black;
+    transform: translateY(-30px);
+}
+.pro h1,h5{
+    color: rgb(243, 243, 239);
+    text-align: center;
+    padding-bottom: 20px;
+}
+h5{
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color: antiquewhite;
+
+}
+.par{
+    display: flex;
+}
+.description{
+    color: aliceblue;
+    flex-basis: 60%;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    padding-bottom: 230px;
+    padding-right: 150px;
+
+
+}
+.par-img{
+    flex-basis: 50%;
+    padding-left: 550px;
+    padding-top: 70px;
+}
+.par-img img{
+   
+    /* border: 2px solid red; */
+    /* border:5px solid #bbb; */
+    /* clip-path: circle(50% at 50% 50%); */
+    border: 3px solid blue;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.res{
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    padding: 30px 30px;
+    margin: 30px 30px;
+    line-height: 2rem;
+}
+.res h1{
+    align-items: center;
+    padding-left: 45%;
+    font-size: 35px;
+}
+.res p{
+    font-size: 20px;
+}
+.res button{
+    border: 3px solid #5a38e0;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all 700ms;
+}
+.res button:hover{
+    /* background: rgb(252, 5, 252); */
+    background-color: #5a38e0;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+#contact{
+    padding:10px 10px;
+    height:50vh;
+    position:relative;
+    /* background:rgb(27, 27, 137); */
+    background-color:  #230a86; 
+ }
+
+.custom-shape-divider-top-1714577718 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1714577718 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 70px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1714577718 .shape-fill {
+    fill: black;
+}
+
+.social-icons{
+    padding-top: 8%;
+    text-align: center;
+}
+.social-icons h1{
+    /* color:#098ad4; */
+    color: white;
+    font-weight: 500;
+}
+ .social-icons a{
+
+    font-size: 30px;
+    color:white;
+    padding:20px 20px;
+    display:inline;
+    
+ }
+ .social-icons a:hover{
+    color:black;
+ }
+ .social-icons h1:hover{
+    color:black;
+ 
+ }
+
+
+
+
+
+
+
+ /* .image2 img{ 
+    height: 199px;
+    width: 199px; 
+    /* object-fit: cover; */
+    /* background-size: cover;
+    box-shadow: 10px 5px 10px rgb(85, 0, 255);
+    margin: 20px 80px;
+ }  */ 
+
+ /* .image3 img{
+    height: 189px;
+    width: 189px; 
+    /* object-fit: cover; */
+     /* background-size: cover; 
+    box-shadow: 10px 5px 10px rgb(18, 94, 112);
+    margin: 20px 80px;
+} */ 
+
+/* .image4 img{
+    height: 189px;
+    width: 189px; 
+    /* object-fit: cover; */
+    /* background-size: cover;
+    box-shadow: 10px 5px 10px rgb(54, 71, 154);
+    margin: 20px 80px; */
+
+/* .key ul{
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    margin: 50px 50px;
+}
